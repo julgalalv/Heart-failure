@@ -53,3 +53,14 @@ python .\app\main.py
 ```
 
 Para cambiar el puerto en el que se despliega la aplicación, es necesario ir al archivo *config.yaml* y modificar el campo PORT.
+
+### Directorio app
+
+En este directorio se encuentran los archivos .py para ejecutar la aplicación.
+
+* **main.py**: archivo principal que levanta el servidor local.
+* **views/**: directorio con los archivos relacionados con las vistas de la GUI.
+* **src/**: directorio con el backend de la aplicación.
+  * config.py: carga la configuración desde el archivo *config.yaml*.
+  * load.py: carga de datos desde el archivo *heart_failure.csv*.
+  * predict.py: carga del modelo desde los archivos del directorio model e implementa la función de predicción.
