@@ -1,0 +1,13 @@
+ENV: LOCAL
+DEBUG: False
+PORT : 8050
+
+DATA:
+  DATA_PATH: 'data'
+  DATA_FILENAME: 'heart_failure.csv'
+
+MODEL:
+  MODEL_PATH : 'model'
+  PREPROC_FILENAME: 'preprocess.bin'
+  MODEL_FILENAME: 'heart_fialure_RF_model.joblib'
+  THRESHOLD: 0.45
