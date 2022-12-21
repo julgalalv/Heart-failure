@@ -3,7 +3,7 @@ Análisis y modelado predictivo del fallecimiento de pacientes en base a distint
 
 ## Instalación local
 
-Se recomienda crear un entorno virtual en el directorio raiz. Para ello debemos ejecutar el siguiente comando:
+Se recomienda crear un entorno virtual en el directorio raíz. Para ello debemos ejecutar el siguiente comando:
 
 ```
 python -m venv /path/to/new/virtual/environment
@@ -28,7 +28,7 @@ El conjunto de datos se encuentra en el archivo *heart_failure.csv* en el direct
 * En el cuaderno de jupyter [heart_failure.ipynb](heart_failure.ipynb) se desarrolla la exploración y análisis del dataset así como la selección de un modelo para la variable objetivo *DEATH_FAILURE*.
 * El archivo [heart_fialure_stat_report.html](heart_fialure_stat_report.html) se genera en el notebook y ofrece un report estadístico del dataset generado con la herramienta [*pandas profiling*](https://pandas-profiling.ydata.ai/docs/master/index.html).
 
-En el notebook se comparan distintos modelos y se obtiene el que mejor resultado da para nuestro objetivo. Los parámetros del modelo se guardan en el directorio **model** para luego poder ser usado en la app. Además, distintos elementos de configuración se encuentran parametrizados en el archivo *config.yml*.
+En el notebook se comparan distintos modelos y se obtiene el que mejor resultado da para nuestro objetivo. Los parámetros del modelo se guardan en el directorio **model** para luego poder ser usado en la app. Además, distintos elementos de configuración se encuentran parametrizados en el archivo *config.yaml*.
 
 ## Aplicación con UI
 
